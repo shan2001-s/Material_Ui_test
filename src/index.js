@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import App from "./App";
+import App2 from "./2_SX_Prop";
 import { Typography } from "@mui/material";
 
 const rootElement = document.getElementById("root");
@@ -35,7 +36,10 @@ const theme = createTheme({
 root.render(
   <StrictMode>
     <ThemeProvider theme={theme}>
-      <App />
+      {/* <App /> */}
+
     </ThemeProvider>
+
+    <App2/>
   </StrictMode>
 );
