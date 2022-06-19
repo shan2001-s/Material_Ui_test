@@ -4,6 +4,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import App from "./App";
 import App2 from "./2_SX_Prop";
+import App3 from "./3_Theme"
 import { Typography } from "@mui/material";
 
 const rootElement = document.getElementById("root");
@@ -40,6 +41,7 @@ root.render(
 
     </ThemeProvider>
 
-    <App2/>
+    {/* <App2/> */}
+    <App3/>
   </StrictMode>
 );
