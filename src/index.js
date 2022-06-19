@@ -4,7 +4,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import App from "./App";
 import App2 from "./2_SX_Prop";
-import App3 from "./3_Theme"
+import App3 from "./3_Theme";
+import App4 from "./4_Icon";
 import { Typography } from "@mui/material";
 
 const rootElement = document.getElementById("root");
@@ -36,12 +37,10 @@ const theme = createTheme({
 
 root.render(
   <StrictMode>
-    <ThemeProvider theme={theme}>
-      {/* <App /> */}
-
-    </ThemeProvider>
+    <ThemeProvider theme={theme}>{/* <App /> */}</ThemeProvider>
 
     {/* <App2/> */}
-    <App3/>
+    {/* <App3/> */}
+    <App4 />
   </StrictMode>
 );

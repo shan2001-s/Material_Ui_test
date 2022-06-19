@@ -1,6 +1,8 @@
 import "./styles.css";
 import { Button, Stack } from "@mui/material";
 
+import DeleteIcon from "@mui/icons-material/Delete";
+
 export default function App2() {
   const text = true;
   return (
