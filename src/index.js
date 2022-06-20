@@ -6,6 +6,7 @@ import App from "./App";
 import App2 from "./2_SX_Prop";
 import App3 from "./3_Theme";
 import App4 from "./4_Icon";
+import EnhancedTable from "./19_Table";
 import { Typography } from "@mui/material";
 
 const rootElement = document.getElementById("root");
@@ -41,6 +42,7 @@ root.render(
 
     {/* <App2/> */}
     {/* <App3/> */}
-    <App4 />
+    {/* <App4 /> */}
+    <EnhancedTable />
   </StrictMode>
 );
